@@ -125,7 +125,7 @@ public class TV {
     }
     
     public static int getNumTV(){
-        return numTV
+        return numTV;
     }    
     
     public static void setNumTV(int numTV){
