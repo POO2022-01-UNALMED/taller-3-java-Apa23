@@ -9,45 +9,45 @@ public class Control {
     public Control(){
     }
     
-    public turnOn(){
-     tv.turnOn()
+    public void turnOn(){
+     tv.turnOn();
     }
  
     public void turnOff(){
-        tv.turnOff()
+        tv.turnOff();
     }
 
     public void canalUp(){
-        tv.canalUp()
+        tv.canalUp();
     }
     
     public void canalDown(){
-        tv.canalDown()
+        tv.canalDown();
     }
 
     public void volumenUp(){
-        tv.volumenUp()
+        tv.volumenUp();
     }
     
     public void volumenDown(){
-        tv.volumenDown()
+        tv.volumenDown();
     }
     
     public void setCanal(int canal){
-        tv.setCanal(canal)
+        tv.setCanal(canal);
     }
         
     public void enlazar(TV tv){
-        this.tv = tv
-        tv.setControl()
+        this.tv = tv;
+        tv.setControl();
     }
     
     public TV getTv(){
-        return tv
+        return tv;
     }
         
     public void setTv(TV tv){
-        this.tv = tv
+        this.tv = tv;
     }
         
     }
