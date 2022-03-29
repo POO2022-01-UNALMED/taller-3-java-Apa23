@@ -33,11 +33,11 @@ public class Control {
         tv.volumenDown()
     }
     
-    public void setCanal(canal){
+    public void setCanal(int canal){
         tv.setCanal(canal)
     }
         
-    public void enlazar(tv){
+    public void enlazar(TV tv){
         this.tv = tv
         tv.setControl()
     }
@@ -46,7 +46,7 @@ public class Control {
         return tv
     }
         
-    public void setTv(tv){
+    public void setTv(TV tv){
         this.tv = tv
     }
         
