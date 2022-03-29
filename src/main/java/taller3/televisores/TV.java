@@ -65,7 +65,6 @@ public class TV {
         if(estado == true){
             this.canal = canal;
         }
-            self._canal = canal;
     }
 
     public boolean getEstado(){
@@ -129,7 +128,7 @@ public class TV {
     }    
     
     public static void setNumTV(int numTV){
-        this.numTV = numTV;
+        TV.numTV = numTV;
     }
 
 }
