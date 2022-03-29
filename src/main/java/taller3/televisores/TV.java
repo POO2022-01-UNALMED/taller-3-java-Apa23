@@ -17,7 +17,7 @@ public class TV {
         numTV++;
     }
 
-    public String getMarca(){
+    public Marca getMarca(){
         return marca;
     }
     
